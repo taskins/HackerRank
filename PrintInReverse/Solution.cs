@@ -18,7 +18,8 @@ void ReversePrint(Node *head)
 {
   // This is a "method-only" submission.
   // You only need to complete this method.
-
+  
+// solution 1 : brute force with stack
     Node *current = head;
     stack <int> printStack; // initialize a stack to hold
     if(head != NULL)
@@ -38,5 +39,13 @@ void ReversePrint(Node *head)
         }
 
    }
+   //solution 2: recursion
+
+if( head != NULL)
+    {
+      ReversePrint(head->next);
+      cout << head->data << endl;
+}
+
 
 }
