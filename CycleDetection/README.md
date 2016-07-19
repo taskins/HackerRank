@@ -14,17 +14,5 @@ Output Format
 
 If the list contains a cycle, your function must return true. If the list does not contain a cycle, it must return false. The binary integer corresponding to the boolean value returned by your function is printed to stdout by our hidden code checker.
 
-Sample Input
 
-The following linked lists are passed as arguments to your function:
-
-Sample Inputs
-Sample Output
-
-0
-1
-Explanation
-
-The first list has no cycle, so we return false and the hidden code checker prints  to stdout.
-The second list has a cycle, so we return true and the hidden code checker prints  to stdout.
 
