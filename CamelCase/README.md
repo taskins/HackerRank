@@ -21,6 +21,7 @@ saveChangesInTheEditor
 Sample Output
 
 5
+
 Explanation
 
 String  contains five words:
